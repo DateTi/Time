@@ -8,7 +8,7 @@ use DateTime;
 
 interface DateTimeInterface extends \DateTimeInterface
 {
-    public function modify(string $modify): self;
+    public function modify(string $modify): \DateTimeInterface;
 
     public function setHolidays(string $country): void;
 
