@@ -15,7 +15,7 @@ interface DateTimeInterface extends \DateTimeInterface
      * @return static Returns the DateTime object for method chaining or FALSE on failure.
      * @link https://php.net/manual/en/datetime.modify.php
      */
-    public function modify(string $modify);
+    public function modify($modify);
 
     public function setHolidays(string $country): void;
 
